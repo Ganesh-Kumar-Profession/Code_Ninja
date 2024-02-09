@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --menu: "Abhaya Libre ExtraBold";
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --menu-size: 16px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-yellowgreen: #d4ec42;
+  --black: #1e1e1e;
+
+  /* Gaps */
+  --gap-185xl: 204px;
+  --gap-100xl: 119px;
+  --gap-120xl: 139px;
+  --gap-84xl: 103px;
+
+  /* Paddings */
+  --padding-252xl: 271px;
+  --padding-xl: 20px;
+  --padding-116xl: 135px;
+  --padding-3xs: 10px;
+}
