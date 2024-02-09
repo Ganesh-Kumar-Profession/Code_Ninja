@@ -1,0 +1,232 @@
+.it-is-with {
+  margin: 0;
+  height: 364px;
+  width: 885px;
+  position: relative;
+  font-size: inherit;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.text-container-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+}
+.text-container-item {
+  position: absolute;
+  top: 34px;
+  left: 37px;
+  width: 296px;
+  height: 331px;
+  object-fit: cover;
+  z-index: 1;
+}
+.text-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.it-is-with-great-pride-and-ent-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 8px 115px 182px;
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+}
+.wrapper-rectangle-2,
+.wrapper-rectangle-2-child {
+  width: 100%;
+  position: absolute;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.wrapper-rectangle-2-child {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: contain;
+  left: 48px;
+  top: 0;
+  transform: scale(1.067);
+}
+.wrapper-rectangle-2 {
+  height: 635px;
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faculty-chapter-members,
+.shri-k-s {
+  position: relative;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+.shri-k-s {
+  width: 274px;
+  height: 315px;
+  flex-shrink: 0;
+}
+.faculty-chapter-members {
+  margin: 0;
+  height: 94px;
+  flex: 1;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.faculty-members-text {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 30px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.iste-chairman,
+.iste-president,
+.principle,
+.vice-principle {
+  margin-bottom: 0;
+}
+.principle-vice-principle-ist {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 43px;
+}
+.principle-vice-principle-container {
+  margin: 0;
+  width: 365px;
+  height: 266px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  text-transform: capitalize;
+  font-weight: 400;
+  font-family: inherit;
+  color: #000;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.faculty-members-text-parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 100%;
+}
+.desktop-1,
+.faculty-members-text-parent,
+.frame-wrapper,
+.wrapper-rectangle-2-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-wrapper {
+  width: 489px;
+  flex-direction: row;
+  padding: 0 16px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -21px;
+  font-size: 40px;
+  color: #e61554;
+}
+.desktop-1,
+.wrapper-rectangle-2-parent {
+  position: relative;
+  flex-direction: column;
+  text-align: left;
+  color: var(--color-white);
+  font-family: var(--font-abhaya-libre-extrabold);
+}
+.wrapper-rectangle-2-parent {
+  align-self: stretch;
+  padding: 0 59px 95px;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-top: -287px;
+  font-size: 16px;
+}
+.desktop-1 {
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+  letter-spacing: normal;
+  font-size: var(--font-size-5xl);
+}
+@media screen and (max-width: 1125px) {
+  .it-is-with-great-pride-and-ent-parent {
+    padding-left: var(--padding-38xl);
+    padding-right: var(--padding-38xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .faculty-chapter-members {
+    font-size: var(--font-size-13xl);
+  }
+  .principle-vice-principle-container {
+    font-size: 26px;
+  }
+  .wrapper-rectangle-2-parent {
+    padding-bottom: 62px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .it-is-with-great-pride-and-ent-parent {
+    padding: 20px 28px 118px;
+    box-sizing: border-box;
+  }
+  .wrapper-rectangle-2-parent {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .it-is-with {
+    font-size: var(--font-size-lgi);
+  }
+  .faculty-chapter-members {
+    font-size: var(--font-size-5xl);
+  }
+  .principle-vice-principle-container {
+    font-size: var(--font-size-lgi);
+  }
+}

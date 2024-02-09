@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-abhaya-libre-extrabold: "Abhaya Libre ExtraBold";
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-7xl: 26px;
+}
